@@ -59,7 +59,7 @@ class FastPMSApp extends StatefulWidget {
 class _FastPMSAppState extends State<FastPMSApp> {
 
   FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
-  late String token;
+  late String token = "";
   String notification = "";
 
   @override
