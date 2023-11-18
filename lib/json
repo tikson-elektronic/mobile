@@ -1,0 +1,229 @@
+{
+    "mobile_app": {
+        "connected": true,
+        "token": "",
+        "email": "",
+        "password": ""
+    },
+    "pms_server": {
+        "heartbeat": false,
+        "mqtt_clients": 0,
+        "last_update": 0
+    },
+    "serial": {
+        "packages_received": 0,
+        "heartbeat": false,
+        "wires_reversed": false,
+        "fill": "red",
+         "shape": "ring",
+          "text": "not-connected",
+           "source": {
+                "id": "",
+                "type": "",
+                "name": ""
+                }
+    },
+    "shoreA": {
+        "name": "Shore A",
+        "image_uri": "shore_plug.png",
+        "meters": [],
+        "status": {
+            "online": false,
+            "precense": false,
+            "tripped": false,
+            "contactor_relay": false,
+            "thyristor": false
+        },
+        "feedback": {
+                "breaker": false,
+                "contactor": false,
+                "thyristor_gate": false,
+                "thyristor_power_temp": false
+        },
+        "alarms": {
+            "buzzer": false,
+            "low_voltage": false,
+            "high_voltate": false,
+            "high_current": false,
+            "fluctuation": false,
+            "wiring_voltate": false,
+            "wiring_current": false,
+            "waiting_alarm": false,
+            "thyristor_power": false
+        }
+    },
+    "shoreB": {
+        "name": "Shore B",
+        "image_uri": "shore_plug.png",
+        "meters": [],
+        "status": {
+            "online": false,
+            "precense": false,
+            "tripped": false,
+            "contactor_relay": false,
+            "thyristor": false
+        },
+        "feedback": {
+                "breaker": false,
+                "contactor": false,
+                "thyristor_gate": false,
+                "thyristor_power_temp": false
+        },
+        "alarms": {
+            "buzzer": false,
+            "low_voltage": false,
+            "high_voltate": false,
+            "high_current": false,
+            "fluctuation": false,
+            "wiring_voltate": false,
+            "wiring_current": false,
+            "waiting_alarm": false,
+            "thyristor_power": false
+        }
+    },
+    "port": {
+        "name": "port",
+        "image_uri": "generator.png",
+        "meters": [],
+        "status": {
+            "precense": false,
+            "online": false,
+            "tripped": false,
+            "contactor_relay": false,
+            "thyristor": false,
+            "auto_start_secuence": false,
+            "auto_stop_secuence": false,
+            "auto_start_preheat": false
+        },
+        "feedback": {
+            "breaker": false,
+            "contactor": false,
+            "thyristor_gate": false,
+            "thyristor_power_temp": false
+        },
+        "alarms": {
+            "buzzer": false,
+            "low_voltage": false,
+            "high_voltate": false,
+            "high_current": false,
+            "fluctuation": false,
+            "wiring_voltate": false,
+            "wiring_current": false,
+            "waiting_alarm": false,
+            "thyristor_power": false
+        }
+    },
+    "stbd": {
+        "name": "stbd",
+        "image_uri": "generator.png",
+        "meters": [],
+        "status": {
+            "precense": false,
+            "online": false,
+            "tripped": false,
+            "contactor_relay": false,
+            "thyristor": false,
+            "auto_start_secuence": false,
+            "auto_stop_secuence": false,
+            "auto_start_preheat": false
+        },
+        "feedback": {
+            "breaker": false,
+            "contactor": false,
+            "thyristor_gate": false,
+            "thyristor_power_temp": false
+        },
+        "alarms": {
+            "buzzer": false,
+            "low_voltage": false,
+            "high_voltate": false,
+            "high_current": false,
+            "fluctuation": false,
+            "wiring_voltate": false,
+            "wiring_current": false,
+            "waiting_alarm": false,
+            "thyristor_power": false
+        }
+    },
+    "pms": {
+        "hmi_1_online": false,
+        "hmi_2_online": false,
+        "boosted": false,
+        "settings": {
+            "modes": {
+                "name": "fpms modes",
+                "manual_auto": false,
+                "protection": false,
+                "ovr": false,
+                "one_time_transfer": false,
+                "split_bus": false,
+                "prefered_source": false,
+                "prefered_gen": false,
+                "dual_gen": false,
+                "seamless_transfer": false,
+                "nboots_shore_a": false,
+                "nboots_shore_b": false,
+                "series": false,
+                "prefered_swgear": false,
+                "single_shore_combine": false,
+                "split_bus_auto_off": false,
+                "gen_auto_start": false,
+                "gen_auto_stop": false
+            }
+        },
+        "status": {
+            "contactor_series_parallel": false,
+            "reverse_relay": false,
+            "load_shedding_1_relay": false,
+            "load_shedding_2_relay": false,
+            "contactor_series_parallel_relay": false,
+            "transfer_to_shoreA": false,
+            "transfer_to_shoreB": false,
+            "transfer_to_port": false,
+            "transfer_to_stbd": false,
+            "transfer_to_series": false,
+            "transfer_to_parallel": false
+        },
+        "requests": {
+            "transfer_to_shore": false,
+            "transfer_to_gen": false,
+            "abort_transfer": false,
+            "set_port_as_priority": false,
+            "set_stbd_as_priority": false
+        },
+        "feedback": {
+            "contactor_combine": false,
+            "contactor_reverse": false,
+            "contactor_series_parallel": false,
+            "bus_a_live": false,
+            "bus_b_live": false,
+            "tie_breaker_closed": false,
+            "blackout": false,
+            "inputs": [],
+            "in_progress": false,
+            "errors": [],
+            "response": ""
+        },
+    "alarms": {
+        "buzzer": false,
+        "buzzer_mute": false,
+        "out_of_phase": false,
+        "protection": false,
+        "load_shedding_1": false,
+        "load_shedding_2": false,
+        "circulating_current": false,
+        "overload_current": false,
+        "circulating_voltage": false,
+        "series_blocked": false,
+        "parallel_bloced": false,
+        "board_temperature": false,
+        "general": []
+    },
+    "logs": {
+        "error_logs": [],
+        "event_logs": [],
+        "alarm_logs": [],
+        "general": []
+    }
+    }
+}

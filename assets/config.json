@@ -1,0 +1,13 @@
+{
+  "initial_config": false,
+  "username": "",
+  "email": "",
+  "password": "",
+  "demo": true,
+  "mqtt_server_uri": "",
+  "mqtt_server_port": 0,
+  "mqtt_username": "",
+  "mqtt_password": "",
+  "mqtt_topic": "",
+  "profile": 0
+}

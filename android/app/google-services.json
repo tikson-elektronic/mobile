@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "37866146748",
+    "project_id": "fpms-app",
+    "storage_bucket": "fpms-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37866146748:android:6baa70f4074ab956ceb9b9",
+        "android_client_info": {
+          "package_name": "com.system.tech.nauti.fpms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6EjaCuiSX4_cEuxHkEmG1BB_k97C-6Ec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
